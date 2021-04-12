@@ -1,0 +1,36 @@
+{
+  "name": "irrigation-monitor",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "author": "Patrick Hallek",
+  "license": "MIT",
+  "dependencies": {
+    "@emotion/core": "10.0.22",
+    "@mdx-js/react": "1.5.1",
+    "chart.js": "^2.9.3",
+    "react": "16.12.0",
+    "react-chartjs-2": "^2.9.0",
+    "react-dom": "16.12.0",
+    "react-scripts": "3.0.1",
+    "serve": "11.3.2",
+    "theme-ui": "0.2.49"
+  },
+  "devDependencies": {
+    "typescript": "3.3.3"
+  },
+  "scripts": {
+    "dev": "react-scripts start",
+    "start": "serve build",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
